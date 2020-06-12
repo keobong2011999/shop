@@ -1,0 +1,101 @@
+.left_content{
+    width: 196px;
+    float: left;
+}
+.title_box{
+    width: 196px;
+    height: 30px;
+    background-color:rgb(24, 23, 63);
+    border-radius: 3px;
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: seashell;
+    line-height: 30px;
+}
+ul.left_menu{
+    width: 196px;
+    list-style: none;
+}
+ul.left_menu li{
+    list-style: none;
+}
+ul.left_menu li.odd a{
+width: 166px;
+height: 25px;
+display: block;
+background: url(img/icons8-instagram-check-mark-15.png) no-repeat left #aca7a7;
+columns: #504b4b;
+line-height: 25px;
+background-position: 5px 5px;
+padding: 0 0 0 30px;
+font-size: 12px;
+}
+ul.left_menu li.even a{
+width: 166px;
+height: 25px;
+display: block;
+background: url(img/icons8-instagram-check-mark-15.png) no-repeat left #eee6e6; 
+color:#504b4b;
+line-height: 25px;
+background-position: 5px 5px;
+padding: 0 0 0 30px;
+font-size: 12px;
+}
+ul.left_menu li.even a:hover , ul.left_menu li.odd a:hover{
+    background: url(img/icons8-instagram-check-mark-15.png) no-repeat left #78bcf3; 
+    color: #fff;
+}
+.border_box{
+    width: 194px;
+    height: auto;
+    text-align: center;
+   border: 1px solid rgb(134, 106, 235);
+}
+.Product_title{
+    color: #ea2222;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.Product_title a{
+    color: #ea2222;
+    text-decoration: none;
+}
+.Product_title a:hover{
+    color: rgb(19, 18, 18);
+}
+.Product_image{
+padding: 5px 0;
+}
+.Product_price{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.Gmail_input{
+    width: 160px;
+    height: 16px;
+    border: 1px solid #dd9d91;
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0 5px 0;
+    padding: 3px;
+}
+a.join{
+    width: 17px;
+    display: block;
+    margin: 5px 0 5px 140px;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    color: rgb(91, 153, 214);
+    background: url(img/icons8-plus-12.png) no-repeat left;
+
+}
+.banner_adds{
+    width: 196px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+

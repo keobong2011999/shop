@@ -1,0 +1,67 @@
+#menu_tap{
+    width: 1200px;
+    height: 50px;
+    margin-top: -50px;
+}
+.left_menu_corner{
+    width: 9px;
+    height: 50px;
+    float: left;
+}
+
+ul.menu{
+    width: 1200px;
+    height: 50px;
+    float: left;
+    display: block;
+    background-color: rgb(224, 222, 222);
+    border-radius: 3px;
+    list-style-type: none;
+}
+ul.menu li {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 50px;
+}
+ul.menu li.diveder {
+    display: iul.menu linline;
+    width: 5px;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+ul.menu li a, ul.menu li a:visited {
+    display: block;
+    float: left;
+    padding: 0px 10px 0px 30px;
+    margin: 0px 14px;
+    height: 50px;
+    text-decoration: none;
+    color:black;
+    }
+    #nav_hom{
+        background: url(img/icons8-home-30.png) no-repeat left ; 
+    }
+    #nav_pro{
+        background: url(img/icons8-product-30.png) no-repeat left ; 
+    }
+    #nav_acc{
+        background: url(img/icons8-account-30.png) no-repeat left ; 
+    }
+    #nav_sig{
+        background: url(img/icons8-add-user-male-30.png) no-repeat left ; 
+    }
+    #nav_ship{
+        background: url(img/icons8-transportation-30.png) no-repeat left ; 
+    }
+    #nav_con{
+        background: url(img/icons8-ringing-phone-30.png) no-repeat left ; 
+    }
+    #nav_adve{
+        background: url(img/icons8-product-30.png) no-repeat left ; 
+    }
+    #nav_news{
+        background: url(img/icons8-news-30.png) no-repeat left ; 
+    }
+   

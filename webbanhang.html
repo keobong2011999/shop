@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> webbanhang</title>
+    <link rel="stylesheet" href="webbanhang.css">
+    <link rel="stylesheet" href="menu_tap.css">
+    <link rel="stylesheet" href="left_content.css">
+    <link rel="stylesheet" href="centercontent.css">
+    <link rel="stylesheet" href="rightcontent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <!-- top:star -->
+        <div class="top">
+            <div class="img-nav">
+                <img src="img/logo.png" alt="" style="width: 150px;"/>
+            </div>
+            <div class="top_nav">
+                <form>
+                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                Giỏ Hàng
+            </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- top:end -->
+        <!-- header:star -->
+        <div class="header">
+            <div class="img_header">
+                <img src="img/anhnen.jpg" alt="" style="width: 100%; height: 250px;">
+            </div>
+        </div>
+        <!-- header:end -->
+
+        <!-- content:star -->
+        <div class="content">
+            <!-- menu_tap -->
+            <div id="menu_tap">
+                <div class="left_menu_corner"></div>
+                <ul class="menu">
+                    <li><a href="#" id="nav_hom">Trang Chủ</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_pro">Các sản Phẩm</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_acc">Tài Khoản Của Tôi</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_sig">Đăng Ký</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_ship">Vận Chuyển</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_con">Liên Hệ</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_adve">Khuyến Mại</a></li>
+                    <li class="diveder"></li>
+                    <li><a href="#" id="nav_news">Tin Tức</a></li>
+                    <li class="diveder"></li>
+                    <li>Chi Nhánh
+                        <select>
+                            <option>Hà Nội</option>
+                            <option>TPHCM</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <!-- left_content -->
+            <div class="left_content">
+                <div class="title_box">Thể Loại</div>
+                <ul class="left_menu">
+                    <li class="odd"><a href="#">Điện Thoại</a></li>
+                    <li class="even"><a href="#">Pc Máy Tính</a></li>
+                    <li class="odd"><a href="#">Phụ Kiện</a></li>
+                    <li class="even"><a href="#">Sim Số</a></li>
+                    <li class="odd"><a href="#">Cammera-TBVP</a></li>
+                    <li class="even"><a href="#">Điện Máy</a></li>
+                    <li class="odd"><a href="#">Dịch Vụ</a></li>
+                    <li class="even"><a href="#">Công Nghệ 4.0</a></li>
+                    <li class="odd"><a href="#">Tuyển Dụng</a></li>
+                    <li class="even"><a href="#">Sản Phẩm Khác</a></li>
+                </ul>
+                <div class="title_box">Sản Phẩm Đặc Biệt</div>
+                <div class="border_box">
+                    <div class="Product_title"><a href="#">MacBook Pro 16 inch 2019 New</a></div>
+                    <div class="Product_image"><a href="#"><img src="img/mvvj2-macbook.jpg" alt="LapTop"
+                                width="160px"></a></div>
+                    <div class="Product_price">
+                        <span class="price">52.000.000Đ</span>
+                    </div>
+                </div>
+                <div class="title_box">Gmail</div>
+                <div class="border_box">
+                    <input type="text" name="Gmail" class="Gmail_input" value="Your Gmail" />
+                    <a href="#" class="join">Join</a>
+                </div>
+                <div class="banner_adds">
+                    <a href="#"><img src="img/tong-hop-cac-ma-giam.jpg" alt="banner" width="164px"></a>
+                </div>
+
+
+            </div>
+            <!-- <center_content -->
+            <div class="center_content">
+                <ul class="products">
+                    <h1 class="title">APPLE-IPHONE</h1>
+                    <li class="main-product">
+                        <div class="img-product">
+                            <img class="img-prd" src="img/iphone-6s-600x600.jpg" alt="" width="200px">
+                        </div>
+                        <div class="content-product">
+                            <h3 class="content-product-h3">Iphone 6Plus 16GB (95%)</h3>
+                            <div class="content-product-deltals">
+                                <div class="price">
+                                    <span class="money">3.590.000</span>
+                                </div>
+                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <div class="border_box">
+                    <div class="Product_title"><a href="#">iPad Pro 2020</a></div>
+                    <div class="Product_image"><a href="#"><img src="img/tải xuống.webp" alt="LapTop"
+                                width="160px"></a></div>
+                    <div class="Product_price">
+                        <span class="price">18.990.000Đ</span>
+                        <button type="button" class="btn_cart">Thêm Vào Giỏ</button>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <center_content -->
+
+            <!-- right_content -->
+            <div class="right_content">
+                <div class="title_box">Sản Phẩm Mới Nhất</div>
+                <div class="border_box">
+                    <div class="Product_title"><a href="#">iPad Pro 2020</a></div>
+                    <div class="Product_image"><a href="#"><img src="img/tải xuống.webp" alt="LapTop"
+                                width="160px"></a></div>
+                    <div class="Product_price">
+                        <span class="price">18.990.000Đ</span>
+                    </div>
+                </div>
+
+                <div class="title_box">Các Hãng</div>
+                <ul class="left_menu">
+                    <li class="odd"><a href="#">Apple</a></li>
+                    <li class="even"><a href="#">Sony</a></li>
+                    <li class="odd"><a href="#">Oppo</a></li>
+                    <li class="even"><a href="#">SamSung</a></li>
+                    <li class="odd"><a href="#">Xiaomi</a></li>
+                    <li class="even"><a href="#">Huawei</a></li>
+                    <li class="odd"><a href="#">LG</a></li>
+                    <li class="even"><a href="#">HTC</a></li>
+                    </ul>
+                    <div class="banner_adds">
+                        <a href="#"><img src="img/492c512235af9b1bbae792be9a123733--sony.jpg" alt="banner" width="164px"></a>
+                    </div>
+    
+            </div>
+
+            <!-- right_content -->
+        </div>
+        <!-- content:end -->
+        <div class="footer"></div>
+    </div>
+
+
+    <script src="webbanhang.js"></script>
+</body>
+
+</html>
